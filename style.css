@@ -1,0 +1,182 @@
+/*Universal Styling*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Roboto";
+}
+
+/*First Section Styling*/
+
+.header-section {
+    background-color: #1F2937;
+    height: 550px;
+    width: 100%;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-right: 800px;
+}
+
+.header-nav-links {
+    display: flex;
+}
+
+.link-two {
+    margin: 0px 20px
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 125px;
+}
+
+.hero-header-section {
+    color: #F9FAF8;
+    width: 400px;
+    margin-left: 50px;
+}
+
+.hero-h1 {
+    font-size: 48px;
+    font-family: "Roboto", "Times New Roman", "Helvetica";
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.hero-p {
+    margin-bottom: 20px;
+}
+
+.hero-btn {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 1px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Roboto", "Times New Roman", "Helvetica";
+    cursor: pointer;
+    height: 35px;
+}
+
+.img-placeholder {
+    background-color: grey;
+    width: 550px;
+    height: 250px;
+    margin-right: 50px;
+}
+
+/*Second Section Styling*/
+
+.second-section {
+    height: 450px;
+    width: 100%;
+}
+
+.text-img-h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.text-img-container {
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.text-img-sub-container {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.text-img-p {
+    width: 100px;
+    height: 200px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.img-container {
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+/*Third Section Styling*/
+
+.third-section {
+    background-color: #E5E7EB;
+    height: 450px;
+    width: 100%;
+}
+
+.quote-p {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    margin: auto;
+    width: 60%;
+    padding-top: 120px;
+}
+
+.p-quote-name {
+    text-align: right;
+    margin-top: 30px;
+}
+
+/*Forth Section Styling*/
+
+.forth-section {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-sign-up-container {
+    width: 1100px;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Footer Section Styling*/
+
+.footer {
+    height: 150px;
+    width: 100%;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+}
+
+.footer p {
+    padding-top: 70px;
+}
